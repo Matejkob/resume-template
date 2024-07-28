@@ -1,6 +1,7 @@
 # Resume Template
 
 A clean, customizable LaTeX resume template for professionals across various industries.
+![Example](https://github.com/user-attachments/assets/f279af01-1e70-445c-9e38-1641dadcfe44)
 
 ## Usage
 
