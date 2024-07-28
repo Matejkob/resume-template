@@ -1,0 +1,72 @@
+% Document class and font size
+\documentclass[a4paper,9pt]{extarticle}
+
+% Packages
+\usepackage[utf8]{inputenc}
+\usepackage{helvet}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{a4paper, margin=0.6in}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+
+% Formatting
+\setlist{noitemsep}
+\setlist[itemize]{leftmargin=0.22in}
+\titleformat{\section}{\large\bfseries}{\thesection}{1em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{\baselineskip}{\baselineskip}
+
+% Ensure that generated pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+% Begin document
+\begin{document}
+
+% Input the content file
+\input{resume_content}
+
+% Disable page numbers
+\pagestyle{empty}
+
+% Header
+\begin{center}
+\textbf{\Large \name}\\[4pt]
+\href{mailto:\email}{\underline{\email}} \raisebox{0.4ex}{\scalebox{0.5}{$\bullet$}}
+\href{tel:\phone}{\underline{\phone}} \raisebox{0.4ex}{\scalebox{0.5}{$\bullet$}}
+\href{\linkedinurl}{\underline{\linkedin}} \raisebox{0.4ex}{\scalebox{0.5}{$\bullet$}}
+\href{\githuburl}{\underline{\github}}
+\end{center}
+
+% Summary
+\noindent
+\summary
+
+% Work Experience
+\section*{Work Experience}
+
+\workexperience
+
+% Education
+\section*{Education}
+
+\noindent
+\textbf{\university}, \universitylocation \hfill \educationdates\\
+\textit{\degree} \\[4pt]
+\educationdescription
+
+% Open Source Projects
+\section*{Open Source Projects}
+
+\opensourceprojects
+
+% Skills
+\section*{Skills}
+
+\skills
+
+\end{document}
