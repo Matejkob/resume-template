@@ -9,7 +9,7 @@ A clean, customizable LaTeX resume template for professionals across various ind
 2. Local setup:
    - Install a LaTeX distribution ([TeX Live](https://www.tug.org/texlive/) for Linux/Windows, [MacTeX](https://www.tug.org/mactex/) for macOS)
    - Clone this repository
-   - Open `main.tex` in your preferred LaTeX editor
+   - Open `resume_main.tex` in your preferred LaTeX editor
    - Compile the document to generate your PDF resume
 
 ## Customization
