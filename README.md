@@ -1,17 +1,22 @@
 # Resume Template
 
-A clean, customizable LaTeX resume template for professionals across various industries.
+A clean, customizable LaTeX resume template designed for professionals across various industries. This template allows for easy customization to suit your personal style and career goals.
 ![Example](https://github.com/user-attachments/assets/f279af01-1e70-445c-9e38-1641dadcfe44)
 
 ## Usage
 
-1. Use this template on Overleaf (recommended). // TODO: Add link to the template after it will be published.
+1. **Overleaf (Recommended)**:
+   - Go to [Overleaf](https://www.overleaf.com/) and sign in or create a free account if you don't have one.
+   - Click on `New Project` and choose `Blank Project`.
+   - Name your project, then upload both `resume_content.tex` and `resume_main.tex` files into the project.
+   - Open `resume_main.tex` in the Overleaf editor.
+   - Click on the `Recompile` button to generate your PDF resume.
 
-2. Local setup:
-   - Install a LaTeX distribution ([TeX Live](https://www.tug.org/texlive/) for Linux/Windows, [MacTeX](https://www.tug.org/mactex/) for macOS)
-   - Clone this repository
-   - Open `resume_main.tex` in your preferred LaTeX editor
-   - Compile the document to generate your PDF resume
+2. **Local Setup**:
+   - Install a LaTeX distribution: [TeX Live](https://www.tug.org/texlive/) for Linux/Windows, [MacTeX](https://www.tug.org/mactex/) for macOS.
+   - Clone this repository to your local machine.
+   - Open `resume_main.tex` in your preferred LaTeX editor.
+   - Compile the document to generate your PDF resume.
 
 ## Customization
 
